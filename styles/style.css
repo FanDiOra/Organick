@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+
+
+/******************* Communs CSS *******************/
+body {
+    margin: 50px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.displayColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.white {
+    color: white;
+}
+
+.green {
+    color: #7EB693;
+}
+
+.deepblue {
+    color: #274C5B;
+}
+
+.deepgreen {
+    color: #525C60;
+}
+
+/******************* Header ************************/
+#frameContainer {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.logoContainer {
+    width: 60%;
+    display: flex;
+}
+
+.menuContainer {
+    width: 40%;
+}
+
+.menu {
+    display: flex;
+    gap: 6%;
+    list-style: none;
+    justify-content: right;
+}
+
+.items a {
+    width: 20%;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    color: #274C5B;
+}
+
+/******************* Footer ************************/
+.footerContainer {
+    gap: 100px;
+}
+
+.contactContainer {
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    height: 340px;
+}
+
+.contact {
+    width: 35%;
+    text-align: right;
+    gap: 32px;
+    margin-right: 5%;
+}
+
+.contactHeading h1 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+    margin: 0;
+}
+
+.contactInfo h4 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.7px;
+    margin: 0;
+}
+
+.contactInfo p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.7px;
+    margin: 0;
+}
+
+.footerLine {
+    border-left: 2px solid #D4D4D4;
+}
+
+.fAbout {
+    width: 60%;
+    align-items: center;
+    gap: 23px;
+}
+
+.aboutContent {
+    padding-left: 20%;
+    margin: 0;
+}
+
+.aboutText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+    margin: 0;
+}
+
+.follow {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #D4D4D4;
+}
+
+.copyright p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+}
+
+.copyright span {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.77px;
+}
+
+/******************* ACCUEIL *******************/
+/******************* Banner ************************/
+.bannerContainer {
+    background-image: url('../images/Banner.png');
+    background-repeat: no-repeat;
+    margin-bottom: 75px;
+}
+
+.bannerContents {
+    width: 25%;
+    padding: 15% 65% 15% 10%;
+    height: 70%;
+    gap: 23px;
+}
+
+.contentText {
+    gap: 8px;
+}
+
+.contentText p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: left;
+    margin: 0;
+}
+
+.contentText h3 {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: left;
+    margin: 0;
+}
+
+.contentButton button {
+    padding: 5px 39px;
+    border-radius: 16px;
+    opacity: 0px;
+    background-color: #EFD372;
+    border: none;
+}
+
+.buttonBanner {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.buttonBanner p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+/******************* Offer ************************/
+.offerContainer {
+    display: flex;
+    width: 80%;
+    gap: 2%;
+    margin-left: 10%;
+    margin-bottom: 200px;
+}
+
+.sideContainer {
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 70%;
+    padding: 7% 0% 5% 5%;
+}
+
+.leftImg {
+    background-image: url('../images/offer_image_1.jpg');
+}
+
+.rightImg {
+    background-image: url('../images/offer_image_2.jpg');
+}
+
+.contents {
+    gap: 5px;
+    width: 40%;
+}
+
+.title {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: left;
+    margin: 0;
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 46.88px;
+    text-align: left;
+    margin: 0;
+}
+
+
+/******************* About ************************/
+.aboutContainer {
+    background-color: #F9F8F8;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.aboutImg {
+    width: 50%;
+}
+
+.aboutImg img {
+    padding: 5% 0% 5% 10%;
+    width: 90%;
+    height: 90%;
+}
+
+.aboutContent {
+    width: 40%;
+    height: 60%;
+    padding: 10% 15% 10% 0%;
+    gap: 46px;
+}
+
+.aContentText {
+    height: 40%;
+    gap: 14px;
+}
+
+.textHeading {
+    gap: 8px;
+}
+
+.textHeading h3 {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: left;
+    margin: 0;
+}
+
+.textHeading h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    margin: 0;
+}
+
+.aContentText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.aContentPoint {
+    height: 40%;
+    gap: 10%;
+}
+
+.point {
+    display: flex;
+    height: 45%;
+    gap: 5%;
+}
+
+.pointIcon {
+    width: 15%;
+}
+
+.pointContent {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.pointContent h4 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29.3px;
+    text-align: left;
+    margin: 0;
+}
+
+.pointContent p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.aContentButton button {
+    display: flex;
+    padding: 28px 39px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    border: none;
+    background-color: #274C5B;
+}
+
+.aContentButton p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    margin: 0;
+}
+
+/******************* Testimonial ************************/
+#testimonial {
+    background-image: url('../images/testimonial_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.testimonialContainer {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 7% 0% 3% 20%;
+}
+
+.testimonialContent {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin: 0 10% 15% 10%;
+}
+
+.tContentHeading {
+    width: 80%;
+    height: 20%;
+    margin: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tContentHeading p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    margin: 0;
+}
+
+.tContentHeading h3 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    margin: 0;
+}
+
+.tContentReview {
+    width: 100%;
+    height: 70%;
+}
+
+.tContentReview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.reviewImg {
+    height: 20%;
+}
+
+.reviewContent {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.reviewText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+}
+
+.reviewName {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name h5 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29.3px;
+    margin: 0;
+}
+
+.name p {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.81px;
+    margin: 0;
+}
+
+.navigation {
+    height: 10%;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+.testimonialCounter {
+    width: 90%;
+    height: 20%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    gap: 2.5%;
+    text-align: center;
+}
+
+.counterContainer {
+    border-radius: 50%;
+    border: 5px solid #7EB693;
+    padding: 2%;
+}
+
+.counter {
+    border-radius: 50%;
+    width: 98%;
+    padding: 50px 0;
+    background-color: #F1F1F1;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.counter h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    margin: 0;
+}
+
+.counter span {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 29.77px;
+    margin: 0;
+}
+
+/******************* Who we are ************************/
+#company {
+    width: 90%;
+}
+.companyContainer {
+    position: relative;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.cContainerImg img {
+    height: 100%;
+}
+
+.cContainerContent {
+    width: 50%;
+    height: 80%;
+    margin-top: 5%;
+    border-radius: 20px;
+    gap: 35px;
+    background-color: white;
+    padding: 4em;
+    margin-left: -5%;
+    position: relative;
+    z-index: 10;
+}
+
+.cContentHeading {
+    gap: 8px;
+}
+
+.cContentHeading p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: left;  
+    margin: 0;  
+}
+
+.cContentHeading h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    margin: 0; 
+}
+
+.cContentPoint {
+    gap: 35px;
+}
+
+.cPoint h4 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+    text-align: left;
+    margin: 0; 
+}
+
+.cPoint p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0; 
+}
+
+/******************* Galery ************************/
+.galeryContainer {
+    background-color: #F1F8F4;
+    padding: 10% 0;
+}
+
+.galeries {
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5%;
+}
+
+.galery1 {
+    background-image: url('../images/jus.png');
+    padding: 45% 23%;
+}
+
+.galery2 {
+    background-image: url('../images/aliment_bio.png');
+    padding: 45% 23%;
+}
+
+.galery3 {
+    background-image: url('../images/biscuit.png');
+    padding: 45% 17%;
+}
+
+.galeryButton {
+    padding: 34px 83px;
+    gap: 10px;
+    border-radius: 20px;
+    opacity: 0px;
+    border: none;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+}
+
+/******************* Newsletter ************************/
+.newsletterContainer {
+    background-image: url('../images/newsletter_background.png');
+    background-repeat: no-repeat;
+    padding: 6%;
+    margin: 5% 10%;
+}
+
+.newsletterContent {
+    display: flex;
+    width: 90%;
+    gap: 10%;
+}
+
+.nContentHeading {
+    width: 40%;
+}
+
+.nContentHeading p {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    margin: 0;
+}
+
+.nContentButton {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    gap: 6px;
+    height: 90%;
+}
+
+.nContentButton input {
+    padding: 29px 47px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    border: none;
+}
+
+input::placeholder {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    color: #ABABAB;
+}
+
+.nContentButton button {
+    padding: 29px 47px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    border: none;
+    background-color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+/******************* A PROPOS *******************/
+/******************* Banner *******************/
+.aBannerContainer {
+    background-image: url('../images/apropos_banner.png');
+    background-repeat: no-repeat;
+    padding: 5% 35%;
+}
+
+.aBannerContainer h1 {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+}
+
+/******************* Offer *******************/
+.aAboutContainer {
+    display: flex;
+    width: 80%;
+    margin-left: 5%;
+    gap: 2%;
+}
+
+.aAboutImg {
+    width: 58%;
+}
+
+
+.aAboutContent {
+    width: 40%;
+    gap: 58px;
+    justify-content: center;
+}
+
+.subContentText {
+    gap: 14px;
+}
+
+.subContentHeading p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: left;
+    margin: 0;
+}
+
+.subContentHeading h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    margin: 0;
+}
+
+.subContentText {
+    gap: 48px;
+}
+
+.text p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+}
+
+.textPoints {
+    display: flex;
+    gap: 10%;
+}
+
+.tPoint1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.tPoint2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.tPoint1 h4 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+    text-align: left;
+    margin: 0;
+}
+
+.tPoint2 h4 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+    text-align: left;
+    margin: 0;
+}
+
+.aboutContentButton button {
+    display: flex;
+    align-items: center;
+    padding: 29px 39px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    border: none;
+    background-color: #274C5B;
+}
+
+button p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: white;
+    margin: 0;
+}
