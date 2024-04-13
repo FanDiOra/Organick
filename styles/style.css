@@ -38,6 +38,14 @@ img {
     color: #525C60;
 }
 
+.whiteBackground {
+    background-color: white;
+}
+
+.blueBackground {
+    background-color: #274C5B;
+}
+
 /******************* Header ************************/
 #frameContainer {
     display: flex;
@@ -850,4 +858,271 @@ button p {
     line-height: 23.44px;
     color: white;
     margin: 0;
+}
+
+/******************* Who we are *******************/
+.wwaContainer {
+    width: 80%;
+    background-color: #F9F8F8;
+    padding: 10%;
+    gap: 91px;
+}
+
+.content1 {
+    display: flex;
+    gap: 2%;
+    height: 70%;
+}
+
+.contentLeft {
+    width: 49%;
+    gap: 36px;
+}
+
+.contentHeading {
+    width: 100%;
+}
+
+.heading p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    margin: 0;
+}
+
+.heading h2 {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 52.73px;
+    margin: 0;
+}
+
+.headingText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+}
+
+.contentPoints {
+    width: 80%;
+    gap: 24px;
+}
+
+.pointHeading {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 29px 27px;
+    border-radius: 49px;
+    opacity: 0px;
+    background-color: #ECECEC;
+}
+
+.pointHeading p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    margin: 0;
+}
+
+.pointText {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.pointText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    color: #525C60;
+    margin: 0;
+}
+
+.contentRight {
+    width: 49%;
+}
+
+.content2 {
+    width: 80%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(4, 22.5%);
+    align-self: center;
+    gap: 3%;
+}
+
+.row {
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 10%;
+}
+
+.row h3 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29.3px;
+    margin: 0;
+}
+
+.row p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+}
+
+/******************* Team *******************/
+.teamContainer {
+   width: 80%;
+   gap: 42px;
+   margin: 10%;
+}
+
+.teamText {
+    width: 60%;
+    margin-left: 20%;
+    gap: 16px;
+    text-align: center;
+}
+
+.tTextHeading p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    margin: 0;
+}
+
+.tTextHeading h3 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    margin: 0;
+}
+
+.tText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+    /* margin: 0; */
+}
+
+.teamContent {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    gap: 2%;
+}
+
+.boxImg img {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: block;
+}
+
+.boxContent {
+    background-color: #F9F8F8;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.box {
+    width: 90%;
+    padding: 5% 5%;
+    display: flex;
+    gap: 145px;
+}
+
+.profil {
+    width: 80%;
+}
+
+.profil h4 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29.3px;
+    text-align: left;
+    margin: 0;
+}
+
+.profil p {
+    font-family: Yellowtail;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29.98px;
+    text-align: left;
+    margin: 0;
+}
+
+.socialProfil {
+    display: flex;
+    justify-content: end;
+    gap: 17px;
+}
+
+/******************* Product *******************/
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10%;
+    gap: 33px;
+}
+
+.productHeading {
+    width: 40%;
+    padding-left: 30%;
+}
+
+.productHeading p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: center;
+    margin: 0;
+}
+
+.productHeading h3 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    margin: 0;
+}
+
+.productContent {
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    gap: 2%;
+}
+
+.productImg {
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.productName p {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+    text-align: center;
 }
