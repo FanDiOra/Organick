@@ -1030,6 +1030,7 @@ button p {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     display: block;
+    grid-template-columns: repeat(3, 33%);
 }
 
 .boxContent {
