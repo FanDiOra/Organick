@@ -1288,3 +1288,68 @@ button p {
     display: flex;
     justify-content: center;
 }
+
+/******************* 404  *******************/
+/******************* Banner *******************/
+.notFoundBannerContainer {
+    background-image: url('../images/404_banner.png');
+    background-repeat: no-repeat;
+    padding: 10% 0% 10% 60%;
+    margin-bottom: 5%;
+}
+
+.nText {
+    gap: 36px;
+}
+
+.textContent {
+    gap: 9px;
+}
+
+.textTitle {
+    width: 100%;
+}
+
+.textTitle h1 {
+    font-size: 250px;
+    left: -15.5px;
+    gap: 0px;
+    opacity: 0px;
+    color: #8FA8A8;
+    margin: 0;
+}
+
+.textTitle p {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82px;
+    text-align: left;
+    margin: 0;
+}
+
+.nContentText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.textButton button {
+    display: flex;
+    padding: 28px 49px;
+    gap: 10px;
+    background-color: #274C5B;
+    border: none;
+    border-radius: 16px;
+}
+
+.textButton button p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+}
