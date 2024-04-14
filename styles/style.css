@@ -1127,3 +1127,164 @@ button p {
     line-height: 29.3px;
     text-align: center;
 }
+
+/******************* SERVICES  *******************/
+/******************* Banner *******************/
+.sBannerContainer {
+    background-image: url('../images/service_banner.png');
+    background-repeat: no-repeat;
+    padding: 6.5% 35%;
+}
+
+.sBannerContainer h1 {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: center;
+}
+
+/******************* Services *******************/
+#services {
+    background-color: #F9F8F8;
+}
+
+.servicesContainer {
+    width: 80%;
+    padding: 10%;
+    gap: 36px;
+}
+
+.serviceHeading {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.serviceHeading p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: center;
+    margin: 0;
+}
+
+.serviceHeading h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: center;
+    margin: 0;
+}
+
+.serviceContent {
+    display: flex;
+    gap: 2%;
+}
+
+.leftPart {
+    width: 28%;
+    justify-content: center;
+    text-align: right;
+    gap: 39px;
+}
+
+.cImg {
+    width: 42%;
+}
+
+.rightPart {
+    width: 28%;
+    justify-content: center;
+    gap: 33px;
+}
+
+.sHeading {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+    margin: 0;
+    color: #274C5B;
+}
+
+.sText {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    margin: 0;
+    color: #525C60;
+}
+
+.serviceButton {
+    width: 15%;
+    align-self: center;
+}
+
+.serviceButton button {
+    display: flex;
+    gap: 10px;
+    padding: 29px 36px;
+    border-radius: 16px;
+    border: 2px solid #335B6B;
+    background-color: #F9F8F8;
+}
+
+.serviceButton button p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    color: #274C5B;
+}
+
+/******************* Video *******************/
+.videoContainer {
+    background-image: url('../images/video.png');
+    background-repeat: no-repeat;
+    padding: 10% 32% 25% 32%;
+    margin-bottom: 5%;
+}
+
+.videoContent {
+    gap: 50px;
+}
+
+.videoHeading {
+    gap: 24px;
+}
+
+.videoTitle h3 {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: center;
+    margin: 0;
+}
+
+.videoTitle h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: center;
+    margin: 0;
+}
+
+.videoText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+    margin: 0;
+}
+
+.videoIcon {
+    display: flex;
+    justify-content: center;
+}
