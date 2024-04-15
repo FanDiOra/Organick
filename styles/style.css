@@ -1353,3 +1353,184 @@ button p {
     line-height: 23.44px;
     text-align: left;
 }
+
+/******************* Contact  *******************/
+/******************* Banner *******************/
+.cBannerContainer {
+    background-image: url('../images/contact_banner.jpg');
+    background-repeat: no-repeat;
+    padding: 6.5% 35%;
+}
+
+.cBannerContainer h1 {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: center;
+}
+
+/******************* Contact *******************/
+.infoContainer {
+    width: 75%;
+    margin: 10% 0% 5% 15%;
+    display: flex;
+    gap: 75px;
+}
+
+.infoImg {
+    width: 35%;
+}
+
+.infoImg img {
+    height: 100%;
+}
+
+.infoContent {
+    width: 60%;
+    gap: 34px;
+}
+
+.contentInfoText {
+    gap: 14px;
+}
+
+.contentInfoText h3 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 46.88px;
+    text-align: left;
+    margin: 0;
+}
+
+.contentInfoText p {
+    width: 85%;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.contentPoint {
+    width: 40%;
+    gap: 17px;
+}
+
+.infoPoint {
+    display: flex;
+    border: 1px solid #EEEEEE;
+    border-radius: 16px;
+    padding: 2%;
+    gap: 16px;
+}
+
+.pointInfoText {
+    justify-content: center;
+}
+
+.pointInfoText h4 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29.3px;
+    text-align: left;
+    margin: 0;
+}
+
+.pointInfoText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.contentFollow {
+    width: 35%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+/******************* Location *******************/
+.locationContainer {
+    width: 70%;
+    margin-left: 15%;
+    background-image: url('../images/location.jpg');
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    padding: 5% 0%;
+}
+
+.locationContent {
+    width: 30%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 46px 53px;
+    gap: 10px;
+    margin: 0% 0% 0% 55%;
+}
+
+.lContentHeading {
+    gap: 10px;
+}
+
+.lHeadingTitle h3 {
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: left;
+    margin: 0;
+}
+
+.lHeadingTitle h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    margin: 0;
+}
+
+.lHeadingText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.lContentAddress {
+    width: 80%;
+    gap: 22px;
+}
+
+.address {
+    display: flex;
+    gap: 10px;
+}
+
+.addressText p span {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+.addressText p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    margin: 0;
+}
+
+/******************* Email *******************/
